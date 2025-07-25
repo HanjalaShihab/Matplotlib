@@ -10,6 +10,11 @@ plt.xlabel("Months")
 plt.ylabel("Sales per month")
 
 plt.legend(loc = 'upper left', fontsize = 12)
-plt.grid(color = 'grey', linestyle = ':', linewidth= 1)
+plt.grid(color = 'grey', linestyle = ':', linewidth = 1)
+
+plt.xlim(1,4)
+plt.ylim(1000, 2000)
+
+plt.xticks([1,2,3,4], ['M1', 'M2', 'M3', 'M4'])
 
 plt.show()
