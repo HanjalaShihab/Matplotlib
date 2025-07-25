@@ -9,4 +9,7 @@ plt.title("Monthly sales data report")
 plt.xlabel("Months")
 plt.ylabel("Sales per month")
 
+plt.legend(loc = 'upper left', fontsize = 12)
+plt.grid(color = 'grey', linestyle = ':', linewidth= 1)
+
 plt.show()
