@@ -14,4 +14,6 @@ plt.grid(color = "gray", linestyle = ":", linewidth = 1)
 plt.xlim(1,4)
 plt.ylim(1000,2000)
 
+plt.xticks([1,2,3,4], ['M1', 'M2', 'M3', 'M3'])
+
 plt.show()
